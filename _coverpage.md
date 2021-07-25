@@ -1,8 +1,6 @@
-![logo](_media/icon.svg)
+![logo](_media/icon.svg ':size=300px')
 
-# Deco Protocol
-
-> Fixed-rates for any Yield Protocol
+> Fixed-rate converter for any yield token
 
 [GitHub](https://github.com/deco-protocol/deco-base)
 [Get Started](overview.md "Overview")

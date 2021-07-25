@@ -1,3 +1,0 @@
-# chai
-
-chai
