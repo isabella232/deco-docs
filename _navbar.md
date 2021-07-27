@@ -12,3 +12,5 @@
 - Integrations
   - [Build an Integration](build-integration.md "Build an Integration with a Yield Token")
   - [Maker Fixed-rate Vaults](integrations/maker-vaults.md "Maker Fixed-rate Vaults")
+
+- [Github](https://github.com/deco-protocol)

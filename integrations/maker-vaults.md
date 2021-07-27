@@ -6,6 +6,8 @@ Vaults need not be migrated to an external protocol before or after the fixed-ra
 
 Vault owners do not have to change any of their own vault management processes. The UI or smart contracts they use to manage a vault will continue to be used. Vault itself remains fully independent, and within Maker Protocol, while the vault owner enjoys a fully fixed-rate on their stability fee.
 
+![Fixed-rate Vaults](_media/../../_media/maker-deco-diagrams.png ':size=600')
+
 Usage steps are as follows,
 
 * Vault owners simply purchase an additional token. Ex: 100,500 CLAIM-FEE-ETH-A tokens valid for three months to hedge their ETH-A vault with 100,500 DAI in debt for three months.
@@ -117,7 +119,8 @@ To summarize the benefits of this integration to vault owners and MakerDAO,
 
 * Fully fixed stability fee with no upper limits. Once purchased, the token issued by Deco and MakerDAO can offset the stability fee up to any increase.
 * Vault owners do not have to make any changes to their vault ownership or management.
-* Opens up an additional source of profits in the form of `fixed-rate risk premium` for MakerDAO and gives it the ability to upsell a new product to the largest vault owners and future RWA vaults who also tend to borrow at scale.
+* Opens up an additional source of profits in the form of `fixed-rate premium` for MakerDAO and gives it the ability to upsell a new product to the largest vault owners and future RWA vaults who also tend to borrow at scale.
 * Vault owner stickiness is vastly improved, especially for the largest vaults, since they have prepaid their stability fees as well as locked in a fixed stability fee for a term.
 * Integration with Gnosis Auction Protocol V2 to discover rates and perform large sales competitively and transparently.
 * Need not find buyers for Zeros issued to be able to sell Claims.
+* For the first time, MakerDAO has a tool to discover the stability fee vault owners are willing to pay by analyzing the CLAIM-FEE token sale data.

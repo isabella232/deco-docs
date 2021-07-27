@@ -2,6 +2,7 @@
   
   - [Overview](overview.md "Overview")
   - [Whitepaper](https://deco.money/whitepaper "Deco Protocol Whitepaper")
+  - [Github](https://github.com/deco-protocol)
 
 - Deco
 
