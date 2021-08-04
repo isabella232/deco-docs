@@ -14,7 +14,7 @@ Fraction value at the genesis of any yield protocol would start at `1` and drops
 
 ## Fraction Value Storage
 
-Yield tokens typically do not store historical yield information on-chain, but historical fraction values are imperative to settling fixed maturity assets that were issued in the past at some future date. In Deco, the `frac` mapping stores fraction values captured at various timestamps by the Deco instance. A record of the last fraction value captured by the instance is kept as well by storing the latest capture timestamp in `latestFracTimestamp`.
+Yield tokens typically do not store historical yield information on-chain, but historical fraction values are imperative to settling fixed maturity assets that were issued in the past at some future timestamp. In Deco, the `frac` mapping stores fraction values captured at various timestamps by the Deco instance. A record of the last fraction value captured by the instance is kept as well by storing the latest capture timestamp in `latestFracTimestamp`.
 
 ```solidity
 mapping(uint256 => uint256) public frac; // frac timestamp => frac value [wad] ex: 0.85
@@ -25,7 +25,7 @@ Capturing and storing fraction values in the `frac` mapping at various timestamp
 
 ## Snapshot
 
-We recommend developers implement the public `snapshot` function to allow anyone to capture and store the current fraction value when executed for yield protocols where it is readily available to read or calculate from on-chain. Ex: Dai Savings Rate, Compound Tokens, Aave Tokens, Yearn Tokens, etc. report the price value in various forms which can be used to compute the fraction by taking an inverse.
+We recommend developers implement the public `snapshot` function to allow anyone to capture and store the current fraction value when executed. Thisc can be done for yield protocols where it is readily available to read or calculate from on-chain. Ex: Dai Savings Rate, Compound Tokens, Aave Tokens, Yearn Tokens, etc. report the price value in various forms which can be used to compute the fraction by taking an inverse.
 
 ```solidity
 // Captures fraction value of a yield token in a trustless manner for current timestamp

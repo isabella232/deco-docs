@@ -118,6 +118,10 @@ Timestamp after which assets can be exchanged back for their promised shares of 
 
 Value of the yield token in base asset terms. For example, the amount of DAI a CHAI balance can withdraw from the CHAI protocol.
 
+### pure-yield
+
+Asset that promises its holder only the yield earned at settlement.
+
 ## R
 
 ### redeem
@@ -175,10 +179,6 @@ Protocol which takes in a base asset deposit from liquidity providers and passes
 ### yield token
 
 Yield protocols give liquidity providers a yield token in exchange for their base asset deposits. Yield token balances can typically be exchanged back again for the base asset deposit as well as any additional yield earned by it from the yield protocol.
-
-### yield-only
-
-Asset that promises its holder only the yield earned at settlement.
 
 ## Z
 
