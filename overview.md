@@ -1,6 +1,6 @@
 # Deco Protocol
 
-> Fixed-rate converter for any yield token.
+> Rate Risk as Tokens
 
 Yield token holders of most yield protocols usually receive a market driven floating-yield. Deco protocol can be integrated with any yield token to tokenize and separate its yield volatility by decomposing the yield token into two new tokens,
 

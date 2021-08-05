@@ -1,6 +1,6 @@
 ![logo](_media/icon.svg ':size=300px')
 
-> Fixed-rate converter for any yield token
+> Rate Risk as Tokens
 
 [GitHub](https://github.com/deco-protocol/deco-base)
 [Get Started](overview.md "Overview")
