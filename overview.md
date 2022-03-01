@@ -1,6 +1,6 @@
 # Deco Protocol
 
-> Rate Risk as Tokens
+> Yield Token Adapters
 
 Yield token holders of most yield protocols usually receive a market driven floating-yield. Deco protocol can be integrated with any yield token to tokenize and separate its yield volatility by decomposing the yield token into two new tokens,
 
@@ -21,3 +21,9 @@ The next sections will equip you with an understanding of the core features of D
 With an understanding of the core protocol, it is time to look at our [integrations guide](build-integration.md). Deco protocol offers a base repo that is not only light-weight and safe, but also designed for flexible and quick integrations with a wide variety of yield tokens and protocols. You can see it in action in the integrations we have discovered so far and we hope you consider building one to seamlessly bring fixed-rates as a feature to your protocol and governance.
 
 Send us a note at `info@deco.money` with your questions regarding integrations with Deco and we will help you out.
+
+## Integrations List
+
+The current list of Deco protocol integrations are:
+
+* [Maker Fixed-Rate Vaults](/integrations/maker-vaults.md)

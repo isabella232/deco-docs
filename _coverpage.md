@@ -1,6 +1,6 @@
 ![logo](_media/icon.svg ':size=300px')
 
-> Rate Risk as Tokens
+> Yield Token Adapters
 
 [GitHub](https://github.com/deco-protocol/deco-base)
 [Get Started](overview.md "Overview")
